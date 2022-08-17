@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Convertion</title>
+    <script src="./convertion.js" defer></script>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body class="container">
+    <div class="convertionSection">
+        <label for="fromConvert">From: </label>
+        <select name="fromConvert">
+            <option value="cel">Celtius</option>
+            <option value="fer">Ferenhit</option>
+        </select>
+        <label for="toConvert">To: </label>
+        <select name="toConvert">
+            <option value="fer">Ferenhit</option>
+        </select>
+        <label for="degree">Degree:</label>
+        <input type="number" name="degree" id="degree" placeholder="Enter Degree" />
+        <input type="button" class="submitValue" value="submit" onclick="compute()" />
+        <p class="result"></p>
+    </div>
+</body>
+
+</html>
