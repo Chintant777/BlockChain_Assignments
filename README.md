@@ -19,6 +19,7 @@ numbers. Let's try to understand why 153 is an Armstrong number.
 (3*3*3)=27
 So:
 1+125+27=153
+
 3. Write a program to find whether a given number is special number or
 
 not-
