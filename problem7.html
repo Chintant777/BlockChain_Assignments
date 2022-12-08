@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 class="h2">Text1</h2>
+    <h2 class="h2">Text2</h2>
+    <h2 class="h2">Text3</h2>
+    <h2 class="h2">Text4</h2>
+    <h2 class="h2">Text5</h2>
+
+    <script>
+        let elements = document.getElementsByClassName("h2");
+        
+        for(let ele of elements){
+            ele.setAttribute("style", "color: purple");
+        }
+    </script>
+</body>
+</html>
